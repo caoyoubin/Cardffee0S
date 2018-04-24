@@ -1,0 +1,16 @@
+.\commands.o: ..\SRC\commands.c
+.\commands.o: ..\Include\auth.h
+.\commands.o: ..\Include\types.h
+.\commands.o: ..\Include\hal.h
+.\commands.o: ..\Include\commands.h
+.\commands.o: ..\Include\config.h
+.\commands.o: ..\Include\crypt.h
+.\commands.o: ..\Include\sw.h
+.\commands.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\commands.o: ..\Include\tea.h
+.\commands.o: ..\Include\fs.h
+.\commands.o: ..\Include\fstream.h
+.\commands.o: ..\Include\log.h
+.\commands.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\commands.o: ..\Include\t0.h
+.\commands.o: ..\Include\tools.h

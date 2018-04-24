@@ -1,0 +1,121 @@
+Dependencies for Project 'cos_smartcard_sosse', Target 'sosse': (DO NOT MODIFY !)
+F (..\SRC\auth.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\auth.o --omf_browse .\auth.crf --depend .\auth.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\auth.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\crypt.h)(0x3E9AC8B1)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Include\tea.h)(0x3E9AC8B1)
+I (..\Include\fs.h)(0x3E9AC8B1)
+I (..\Include\fstream.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+I (..\Include\tools.h)(0x3E9AC8B1)
+I (..\Include\transaction.h)(0x3E9AC8B1)
+F (..\SRC\authtest.c)(0x5ACDFA20)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\authtest.o --omf_browse .\authtest.crf --depend .\authtest.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\auth.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (..\Include\fs.h)(0x3E9AC8B1)
+I (..\Include\fstream.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+I (..\Include\transaction.h)(0x3E9AC8B1)
+F (..\SRC\commands.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\commands.o --omf_browse .\commands.crf --depend .\commands.d)
+I (..\Include\auth.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+I (..\Include\commands.h)(0x3E9AC8B1)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\crypt.h)(0x3E9AC8B1)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Include\tea.h)(0x3E9AC8B1)
+I (..\Include\fs.h)(0x3E9AC8B1)
+I (..\Include\fstream.h)(0x3E9AC8B1)
+I (..\Include\log.h)(0x3E9AC8B1)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (..\Include\t0.h)(0x3E9AC8B1)
+I (..\Include\tools.h)(0x3E9AC8B1)
+F (..\SRC\ctapi.c)(0x5ACDFB98)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\ctapi.o --omf_browse .\ctapi.crf --depend .\ctapi.d)
+F (..\SRC\fs.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\fs.o --omf_browse .\fs.crf --depend .\fs.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\fs.h)(0x3E9AC8B1)
+I (..\Include\fstream.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+I (..\Include\log.h)(0x3E9AC8B1)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Include\transaction.h)(0x3E9AC8B1)
+F (..\SRC\fstest.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\fstest.o --omf_browse .\fstest.crf --depend .\fstest.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Include\auth.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\fs.h)(0x3E9AC8B1)
+I (..\Include\fstream.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+F (..\SRC\fstream.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\fstream.o --omf_browse .\fstream.crf --depend .\fstream.d)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\fstream.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+F (..\SRC\hal.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\hal.o --omf_browse .\hal.crf --depend .\hal.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\crypt.h)(0x3E9AC8B1)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Include\tea.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+F (..\SRC\hal-emu.c)(0x5ACDFA6E)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\hal-emu.o --omf_browse .\hal-emu.crf --depend .\hal-emu.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+F (..\SRC\log.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\log.o --omf_browse .\log.crf --depend .\log.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\hal.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\log.h)(0x3E9AC8B1)
+F (..\SRC\main.c)(0x5ACCDD0A)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\auth.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\commands.h)(0x3E9AC8B1)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (..\Include\fs.h)(0x3E9AC8B1)
+I (..\Include\fstream.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+I (..\Include\t0.h)(0x3E9AC8B1)
+I (..\Include\transaction.h)(0x3E9AC8B1)
+F (..\SRC\newdes-sk.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\newdes-sk.o --omf_browse .\newdes-sk.crf --depend .\newdes-sk.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\types.h)(0x3E9AC8B1)
+F (..\SRC\skipjack.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\skipjack.o --omf_browse .\skipjack.crf --depend .\skipjack.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\skipjack.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+F (..\SRC\sw.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\sw.o --omf_browse .\sw.crf --depend .\sw.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+F (..\SRC\t0.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\t0.o --omf_browse .\t0.crf --depend .\t0.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+I (..\Include\t0.h)(0x3E9AC8B1)
+F (..\SRC\tea.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\tea.o --omf_browse .\tea.crf --depend .\tea.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\tea.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\tools.h)(0x3E9AC8B1)
+F (..\SRC\tools.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\tools.o --omf_browse .\tools.crf --depend .\tools.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\tools.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+F (..\SRC\transaction.c)(0x3E9AC8B1)(-c --cpu Cortex-M0 --li -g -O0 --apcs=interwork -I..\Include-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o .\transaction.o --omf_browse .\transaction.crf --depend .\transaction.d)
+I (..\Include\config.h)(0x5ACDF8A2)
+I (..\Include\sw.h)(0x3E9AC8B1)
+I (..\Include\types.h)(0x3E9AC8B1)
+I (..\Include\hal.h)(0x3E9AC8B1)
+I (..\Include\transaction.h)(0x3E9AC8B1)

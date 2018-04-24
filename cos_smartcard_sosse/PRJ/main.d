@@ -1,0 +1,11 @@
+.\main.o: ..\SRC\main.c
+.\main.o: ..\Include\config.h
+.\main.o: ..\Include\auth.h
+.\main.o: ..\Include\types.h
+.\main.o: ..\Include\commands.h
+.\main.o: ..\Include\sw.h
+.\main.o: ..\Include\fs.h
+.\main.o: ..\Include\fstream.h
+.\main.o: ..\Include\hal.h
+.\main.o: ..\Include\t0.h
+.\main.o: ..\Include\transaction.h

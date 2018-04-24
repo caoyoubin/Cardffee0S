@@ -1,0 +1,10 @@
+.\fs.o: ..\SRC\fs.c
+.\fs.o: ..\Include\config.h
+.\fs.o: ..\Include\sw.h
+.\fs.o: ..\Include\types.h
+.\fs.o: ..\Include\fs.h
+.\fs.o: ..\Include\fstream.h
+.\fs.o: ..\Include\hal.h
+.\fs.o: ..\Include\log.h
+.\fs.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\fs.o: ..\Include\transaction.h

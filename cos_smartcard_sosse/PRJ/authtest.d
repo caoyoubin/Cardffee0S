@@ -1,0 +1,10 @@
+.\authtest.o: ..\SRC\authtest.c
+.\authtest.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\authtest.o: ..\Include\config.h
+.\authtest.o: ..\Include\auth.h
+.\authtest.o: ..\Include\types.h
+.\authtest.o: ..\Include\sw.h
+.\authtest.o: ..\Include\fs.h
+.\authtest.o: ..\Include\fstream.h
+.\authtest.o: ..\Include\hal.h
+.\authtest.o: ..\Include\transaction.h

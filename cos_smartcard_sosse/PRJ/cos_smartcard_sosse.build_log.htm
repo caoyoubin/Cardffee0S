@@ -1,0 +1,185 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\2017\xh_smart\keil_workspace\cos_smartcard_sosse\PRJ\cos_smartcard_sosse.uvproj
+Project File Date:  04/10/2018
+
+<h2>Output:</h2>
+Build target 'sosse'
+*** Scatter Error: no default 'Read/Write' range selected
+compiling commands.c...
+..\SRC\commands.c(220): error:  #55-D: too many arguments in invocation of macro "hton_us"
+        hton_us( &fi.size, 1 );
+..\SRC\commands.c(221): error:  #55-D: too many arguments in invocation of macro "hton_us"
+        hton_us( &fi.fid, 1 );
+..\SRC\commands.c(444): error:  #55-D: too many arguments in invocation of macro "hton_us"
+        hton_us( &(fi->size), 1 );
+..\SRC\commands.c(445): error:  #55-D: too many arguments in invocation of macro "hton_us"
+        hton_us( &(fi->fid), 1 );
+..\SRC\commands.c: 0 warnings, 4 errors
+compiling ctapi.c...
+..\SRC\ctapi.c(26): error:  #5: cannot open source input file "unistd.h": No such file or directory
+  #include <unistd.h>
+..\SRC\ctapi.c: 0 warnings, 1 error
+compiling hal.c...
+..\SRC\hal.c(29): error:  #5: cannot open source input file "eeprom.h": No such file or directory
+  #include <eeprom.h>
+..\SRC\hal.c: 0 warnings, 1 error
+compiling hal-emu.c...
+..\SRC\hal-emu.c(30): error:  #5: cannot open source input file "sio/sio.h": No such file or directory
+  #include <sio/sio.h>
+..\SRC\hal-emu.c: 0 warnings, 1 error
+".\cos_smartcard_sosse.axf" - 7 Error(s), 0 Warning(s).
+Target not created
+</pre>
+</body>
+</html>
+e_main" declared implicitly
+                sosse_main();
+..\SRC\ctapi.c(71): warning:  #223-D: function "read" declared implicitly
+        if( read( fd_fromCard[0], atr+i, 1 )!=1 ) {
+..\SRC\ctapi.c(108): warning:  #223-D: function "close" declared implicitly
+                close( fd_toCard[1] );
+..\SRC\ctapi.c(296): warning:  #223-D: function "write" declared implicitly
+                write( fd_toCard[1], command, 4 );
+..\SRC\ctapi.c(300): warning:  #223-D: function "write" declared implicitly
+                write( fd_toCard[1], command, 5 );
+..\SRC\ctapi.c(306): warning:  #223-D: function "read" declared implicitly
+                if( read( fd_fromCard[0], &byte, 1 )!=1 ) {
+..\SRC\ctapi.c(315): warning:  #223-D: function "write" declared implicitly
+                                if( write( fd_toCard[1], command+5+spointer, lc-spointer )!=
+..\SRC\ctapi.c(353): warning:  #223-D: function "write" declared implicitly
+                                if( write( fd_toCard[1], command+5+spointer, 1 )!=1 ) {
+..\SRC\ctapi.c(419): warning:  #111-D: statement is unreachable
+        return( CTAPI_RV_ERR_TRANS );
+..\SRC\ctapi.c: 13 warnings, 1 error
+compiling hal.c...
+..\SRC\hal.c(29): error:  #5: cannot open source input file "eeprom.h": No such file or directory
+  #include <eeprom.h>
+..\SRC\hal.c: 0 warnings, 1 error
+compiling hal-emu.c...
+..\SRC\hal-emu.c(30): error:  #5: cannot open source input file "sio/sio.h": No such file or directory
+  #include <sio/sio.h>
+..\SRC\hal-emu.c: 0 warnings, 1 error
+".\cos_smartcard_sosse.axf" - 7 Error(s), 13 Warning(s).
+Target not created
+compiling ctapi.c...
+..\SRC\ctapi.c(26): error:  #5: cannot open source input file "unistd.h": No such file or directory
+  #include <unistd.h>
+..\SRC\ctapi.c: 0 warnings, 1 error
+"..\SRC\ctapi.c" - 1 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+compiling transaction.c...
+"..\SRC\transaction.c" - 0 Error(s), 0 Warning(s).
+
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling authtest.c...
+..\SRC\authtest.c(129): warning:  #223-D: function "ntohl" declared implicitly
+        challenge[0]=ntohl(0x9D75A946);
+..\SRC\authtest.c: 1 warning, 0 errors
+"..\SRC\authtest.c" - 0 Error(s), 1 Warning(s).
+compiling main.c...
+"..\SRC\main.c" - 0 Error(s), 0 Warning(s).
